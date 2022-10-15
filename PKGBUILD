@@ -8,7 +8,7 @@ url='https://github.com/voj343/mullvad-openrc'
 license=('GPL')
 depends=('openrc')
 source=("mullvadd.initd")
-sha256sums=("17043deeb5144a624bcbc08bed7b0aa08379c1c849d1d2ceecdcdc34d022435b")
+sha256sums=("3c0d6016088c969d8f89339069e5b83503f5e434b0b811ff1d7e2197063a3f73")
 
 package() {
   install -Dm755 ${srcdir}/mullvadd.initd "$pkgdir"/etc/init.d/mullvadd
